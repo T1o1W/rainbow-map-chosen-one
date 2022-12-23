@@ -72,12 +72,4 @@ local args = {
 
 game:GetService("Players").LocalPlayer.Character.Paint.RemoteEvent:FireServer(unpack(args))
 wait(.1)
-local args = {
-    [1] = Vector3.new(0.04336428642272949, 0, 0.1081385612487793),
-    [2] = workspace.Baseplate,
-    [3] = Enum.NormalId.Top,
-    [4] = Color3.fromRGB(0,0,0)
-}
-
-game:GetService("Players").LocalPlayer.Character.Paint.RemoteEvent:FireServer(unpack(args))
 end
